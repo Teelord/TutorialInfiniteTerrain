@@ -15,5 +15,11 @@ var config = {
   pixelArt: true,
   roundPixels: true
 };
-
+var chunkSize = 10;
+var chunkDistanceToRender = 4;
+var maxSpeed = 25;
+var speedIncrements = 2;
+var granularity = 800;
+var zoom = 2;
+var minZoom = .2;
 var game = new Phaser.Game(config);
